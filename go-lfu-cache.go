@@ -53,7 +53,7 @@ func (c *Cache) Get(key string) interface{} {
 
 // idk that was in big Ya's course
 func (c *Cache) increment(e *CacheValue) {
-	e.freq++
+	e.freq += 1
 }
 
 // Saves values with key
