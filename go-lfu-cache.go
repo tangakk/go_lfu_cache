@@ -24,7 +24,7 @@ type Cache struct {
 }
 
 // Creates new Cache instance
-func New() *Cache {
+func NewCache() *Cache {
 	return &Cache{
 		0, 0, sync.Mutex{}, make(map[string]*CacheValue),
 	}
